@@ -24,3 +24,6 @@ yarn-error.log*
 
 #user generated content
 public/profile.json
+
+# Local Netlify folder
+.netlify
