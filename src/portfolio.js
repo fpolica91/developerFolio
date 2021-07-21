@@ -14,23 +14,21 @@ const greeting = {
   username: "fpolica91",
   title: "Hi all, I am Fabricio",
   subTitle: emoji(
-    "Full Stack developer with a passion for technology 🚀. I specialize in stunning visual web development and am very proficient in React.js, Node.js, Elixir, Solidity, Truffle, Express.j, HTML, CSS3 and more. I'm constantly expanding and improving my technical skills and looking for a great team where I can contribute and continue to grow professionally "
+    "Full Stack developer with a passion for technology 🚀. I specialize in stunning visual web development and am very proficient in React.js, Node.js, Elixir, Express.j, HTML, CSS3 and more. I'm constantly expanding and improving my technical skills and looking for a great team where I can contribute and continue to grow professionally "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+    "https://docs.google.com/document/d/1FB-Ct15N4gYBTggcsfskfqyiK9cFrGWfYlL3YyWwgoU/edit?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/fpolica91",
+  linkedin: "https://www.linkedin.com/in/fpolica/",
+  gmail: "fabriciopolicarpo0@gmail.com",
+  medium: "https://medium.com/@fabriciopolicarpo0",
+  stackoverflow: "https://stackoverflow.com/users/11968250/fabricio-policarpo",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
@@ -39,14 +37,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER PASSIONATE ABOUT FUNCTIONAL PROGRAMMING",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ Netlify / and others"
     )
   ],
 
@@ -79,20 +77,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Vue",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "Postgres",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "firebase",
@@ -116,23 +106,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Ironhack Miami",
+      logo: require("./assets/images/ironhack.png"),
+      subHeader: "Programming Bootcamp 400 + hours",
+      duration: "February 2019 - November 2019",
+      desc: "Guided peer to peer learning, curiosity based projects",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built full stack chat with integrated terminal",
+        "Built MVP social media platform for equirectangular images"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "Florida Atlantic University",
+      logo: require("./assets/images/fau.png"),
+      subHeader: "Bachelor of Social Studies",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "General education literal studies.",
     }
   ]
 };
@@ -143,16 +132,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
