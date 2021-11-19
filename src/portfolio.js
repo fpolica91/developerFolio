@@ -217,7 +217,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://projectnickel.com/"
         }
       ]
     }
